@@ -35,7 +35,7 @@ class Triangle
     end
 
     def triangle_inequality_message
-
+      "Triangle violates triangle inequality"
     end
 
 
