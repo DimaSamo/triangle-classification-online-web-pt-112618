@@ -16,7 +16,7 @@ class Triangle
       raise TriangleError
     end
 
-    if @three > @one+@two || @two > @one+@three || @one > @two+@three
+    if @three >= @one+@two || @two >= @one+@three || @one >= @two+@three
       raise TriangleError
     end
 
