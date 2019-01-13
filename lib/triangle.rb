@@ -16,4 +16,16 @@ class Triangle
     end
   end
 
+  class TriangleError < StandardError
+    def no_size_message
+      "Triangles with no size are illegal"
+    end
+
+    def negative_sides_message
+      "Triangles with negative sides are illegal"
+    end
+
+
+  end
+
 end
