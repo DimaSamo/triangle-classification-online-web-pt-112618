@@ -34,6 +34,10 @@ class Triangle
       "Triangles with negative sides are illegal"
     end
 
+    def triangle_inequality_message
+
+    end
+
 
   end
 
