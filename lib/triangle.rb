@@ -16,6 +16,10 @@ class Triangle
       raise TriangleError
     end
 
+    if @three > @one+@two || @two > @one+@three || @one > @two+@three
+      raise TriangleError
+    end
+
     if @one == @two &&  @two == @three
       :equilateral
     elsif @one == @two || @two == @three || @one == @three
